@@ -1,0 +1,20 @@
+server:
+  port: 7002
+eureka:
+  instance:
+    hostname: eureka7002.com
+  client:
+    register-with-eureka: false
+    fetch-registry: false
+    service-url:
+      defaultZone: http://eureka7001.com:7001/eureka
+
+spring:
+  application:
+    name: cloud-eureka-server7002
+  datasource:
+    url: jdbc:mysql://localhost:3308/springclouddemo?useUnicode=true&characterEncoding=utf-8&useSSL=false
+    type: com.alibaba.druid.pool.DruidDataSource
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: ying
+    password: newman123
