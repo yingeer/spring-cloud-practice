@@ -9,3 +9,4 @@ public interface IPaymentService {
     public Payment getPaymentById(@Param("id") Long id);
 
 }
+

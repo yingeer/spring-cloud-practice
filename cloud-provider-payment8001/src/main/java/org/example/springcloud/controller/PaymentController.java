@@ -19,6 +19,16 @@ public class PaymentController {
     @Value("${server.port}")
     private String serverPort;
 
+    @GetMapping("/get/{id}")
+    public CommonResult<Payment> getPaymentById(@PathVariable("id") Long id) {
+        Payment payment = IPaymentService.getPaymentById(id);
+        if (payment != null) {
+            return new CommonResult<>(200, "查询成功 server port is: "+serverPort, payment);
+        } else {
+            return new CommonResult<>(444, "查询失败", null);
+        }
+    }
+
     @PostMapping("/create")
     @ResponseBody
     public CommonResult<Payment> create(Payment payment) {
@@ -31,14 +41,5 @@ public class PaymentController {
         }
     }
 
-    @ResponseBody
-    @GetMapping("/get/{id}")
-    public CommonResult<Payment> getPaymentById(@PathVariable("id") Long id) {
-        Payment payment = IPaymentService.getPaymentById(id);
-        if (payment != null) {
-            return new CommonResult<>(200, "查询成功 server port is: "+serverPort, payment);
-        } else {
-            return new CommonResult<>(444, "查询失败", null);
-        }
-    }
+
 }
