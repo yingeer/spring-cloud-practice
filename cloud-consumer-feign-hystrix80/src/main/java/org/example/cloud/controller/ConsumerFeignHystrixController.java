@@ -23,14 +23,8 @@ public class ConsumerFeignHystrixController {
     }
 
     @GetMapping("/consumer/payment/hystrix/timeout/{id}")
-    @HystrixCommand(fallbackMethod = "fallBack", commandProperties = {
-            @HystrixProperty(name = "execution.isolation.thread.timeoutInMilliseconds", value = "3000")
-    })
     public String paymentInfo_Timeout(@PathVariable("id") Integer id) {
         return service.paymentInfo_Timeout(id);
     }
 
-    public String fallBack(Integer id) {
-        return "*★,°*:.☆(￣▽￣)/$:*.°★* 。你失宠啦";
-    }
 }

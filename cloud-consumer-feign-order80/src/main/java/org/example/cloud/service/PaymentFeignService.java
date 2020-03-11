@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.ResponseBody;
 
 @Service
-@FeignClient(value = "CLOUD-PAYMENT-SERVICE")
+@FeignClient(value = "CLOUD-PAYMENT-SERVICE", fallback = PaymentFeignServiceFallback.class)
 public interface PaymentFeignService {
 
     @GetMapping("/payment/get/{id}")
