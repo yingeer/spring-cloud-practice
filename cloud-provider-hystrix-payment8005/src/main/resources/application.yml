@@ -1,22 +1,22 @@
 server:
-  port: 7002
+  port: 8005
 eureka:
   instance:
-    hostname: eureka7002.com
+    hostname: localhost
   client:
-    register-with-eureka: false
-    fetch-registry: false
+    register-with-eureka: true
+    fetch-registry: true
     service-url:
       defaultZone: http://eureka7002.com:7002/eureka
 
 spring:
   application:
-    name: cloud-eureka-server7002
+    name: cloud-provider-hystrix-payment
 
   datasource:
     url: jdbc:mysql://localhost:3308/springclouddemo?useUnicode=true&characterEncoding=utf-8&useSSL=false
     type: com.alibaba.druid.pool.DruidDataSource
-#    driver-class-name: com.mysql.cj.jdbc.Driver
+    #    driver-class-name: com.mysql.cj.jdbc.Driver
     username: ying
     password: newman123
-    driver-class-name: com.mysql.cj.jdbc.Driver
+    driver-class-name: org.gjt.mm.mysql.Driver

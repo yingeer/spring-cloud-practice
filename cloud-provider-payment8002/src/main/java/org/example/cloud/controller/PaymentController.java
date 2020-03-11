@@ -40,7 +40,6 @@ public class PaymentController {
         }
     }
 
-    @ResponseBody
     @GetMapping("/get/{id}")
     public CommonResult<Payment> getPaymentById(@PathVariable("id") Long id) {
         Payment payment = IPaymentService.getPaymentById(id);

@@ -2,16 +2,16 @@ package org.example.cloud;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.cloud.client.circuitbreaker.EnableCircuitBreaker;
 import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
-import org.springframework.cloud.netflix.hystrix.EnableHystrix;
 import org.springframework.cloud.openfeign.EnableFeignClients;
 
 @SpringBootApplication
 @EnableEurekaClient
 @EnableFeignClients
-@EnableHystrix
-public class CloudConsumerFeignOrder80Application {
+@EnableCircuitBreaker
+public class CloudProviderHystrixPayment8005Application {
     public static void main(String[] args) {
-        SpringApplication.run(CloudConsumerFeignOrder80Application.class);
+        SpringApplication.run(CloudProviderHystrixPayment8005Application.class);
     }
 }

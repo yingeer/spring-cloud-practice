@@ -15,3 +15,11 @@ spring:
     driver-class-name: org.gjt.mm.mysql.Driver
     username: ying
     password: newman123
+
+logging:
+  level:
+#    feign以哪一个日志级别监听哪一个接口
+    org.example.cloud.service.PaymentFeignService: debug
+feign:
+  hystrix:
+    enabled: true
