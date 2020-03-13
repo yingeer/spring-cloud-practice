@@ -7,11 +7,19 @@ spring:
     name: cloud-gateway
   cloud:
     gateway:
+      discovery:
+        locator:
+          enabled: true # 开启从注册中心创建动态路由
       routes:
         - id: payment_routh
-          uri: http://localhost:8002
+          uri: lb://CLOUD-PAYMENT-SERVICE
           predicates:
             - Path=/payment/get/**
+
+        - id: baiduguonei
+          uri: http://news.baidu.com/
+          predicates:
+            - Path=/guonei
   datasource:
     url: jdbc:mysql://localhost:3308/springclouddemo?useUnicode=true&characterEncoding=utf-8&useSSL=false
     type: com.alibaba.druid.pool.DruidDataSource
