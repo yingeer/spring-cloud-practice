@@ -1,7 +1,6 @@
 server:
-  port: 3355
+  port: 3366
   address: localhost
-
 
 eureka:
   client:
@@ -12,18 +11,13 @@ eureka:
 spring:
   application:
     name: config-client
-  datasource:
-    url: jdbc:mysql://localhost:3308/springclouddemo?useUnicode=true&characterEncoding=utf-8&useSSL=false
-    type: com.alibaba.druid.pool.DruidDataSource
-    driver-class-name: org.gjt.mm.mysql.Driver
-    username: ying
-    password: newman123
+
   cloud:
     config:
       label: master
       name: config
       profile: dev
-#      label+name+profile => 在3344config-server上找 /master/config-dev.yml
+      #      label+name+profile => 3344config-server /master/config-dev.yml
       uri: http://localhost:3344/
 
 rabbitmq:
