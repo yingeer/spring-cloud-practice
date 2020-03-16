@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/activemq-study-demo/activemq-study-demo.iml" filepath="$PROJECT_DIR$/activemq-study-demo/activemq-study-demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloud-aliibaba-nacos9001/cloud-aliibaba-nacos9001.iml" filepath="$PROJECT_DIR$/cloud-aliibaba-nacos9001/cloud-aliibaba-nacos9001.iml" />
       <module fileurl="file://$PROJECT_DIR$/cloud-config-client3355/cloud-config-client3355.iml" filepath="$PROJECT_DIR$/cloud-config-client3355/cloud-config-client3355.iml" />
       <module fileurl="file://$PROJECT_DIR$/cloud-config-client3366/cloud-config-client3366.iml" filepath="$PROJECT_DIR$/cloud-config-client3366/cloud-config-client3366.iml" />
       <module fileurl="file://$PROJECT_DIR$/cloud-consumer-feign-hystrix80/cloud-consumer-feign-hystrix80.iml" filepath="$PROJECT_DIR$/cloud-consumer-feign-hystrix80/cloud-consumer-feign-hystrix80.iml" />
@@ -18,6 +20,8 @@
       <module fileurl="file://$PROJECT_DIR$/cloud-provider-payment8004/cloud-provider-payment8004.iml" filepath="$PROJECT_DIR$/cloud-provider-payment8004/cloud-provider-payment8004.iml" />
       <module fileurl="file://$PROJECT_DIR$/cloud-provider-payment9999/cloud-provider-payment9999.iml" filepath="$PROJECT_DIR$/cloud-provider-payment9999/cloud-provider-payment9999.iml" />
       <module fileurl="file://$PROJECT_DIR$/cloud-stream-rabbbitmq-provider8801/cloud-stream-rabbbitmq-provider8801.iml" filepath="$PROJECT_DIR$/cloud-stream-rabbbitmq-provider8801/cloud-stream-rabbbitmq-provider8801.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloud-stream-rabbitmq-consumer8802/cloud-stream-rabbitmq-consumer8802.iml" filepath="$PROJECT_DIR$/cloud-stream-rabbitmq-consumer8802/cloud-stream-rabbitmq-consumer8802.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloud-stream-rabbitmq-consumer8803/cloud-stream-rabbitmq-consumer8803.iml" filepath="$PROJECT_DIR$/cloud-stream-rabbitmq-consumer8803/cloud-stream-rabbitmq-consumer8803.iml" />
       <module fileurl="file://$PROJECT_DIR$/colud-config-server3344/colud-config-server3344.iml" filepath="$PROJECT_DIR$/colud-config-server3344/colud-config-server3344.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/study-spring-cloud.iml" filepath="$PROJECT_DIR$/.idea/study-spring-cloud.iml" />
     </modules>

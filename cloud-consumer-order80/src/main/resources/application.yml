@@ -5,6 +5,12 @@ server:
 spring:
   application:
     name: cloud-consumer-order
+  zipkin:
+    base-url: http://localhost:9411
+  sleuth:
+    sampler:
+      probability: 1
+
   datasource:
     url: jdbc:mysql://localhost:3308/springclouddemo?useUnicode=true&characterEncoding=utf-8&useSSL=false
     type: com.alibaba.druid.pool.DruidDataSource
