@@ -3,6 +3,9 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/activemq-study-demo/activemq-study-demo.iml" filepath="$PROJECT_DIR$/activemq-study-demo/activemq-study-demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloud-alibaba-config/cloud-alibaba-config.iml" filepath="$PROJECT_DIR$/cloud-alibaba-config/cloud-alibaba-config.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloud-alibaba-consumer9002/cloud-alibaba-consumer9002.iml" filepath="$PROJECT_DIR$/cloud-alibaba-consumer9002/cloud-alibaba-consumer9002.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloud-alibaba-sentinel8401/cloud-alibaba-sentinel8401.iml" filepath="$PROJECT_DIR$/cloud-alibaba-sentinel8401/cloud-alibaba-sentinel8401.iml" />
       <module fileurl="file://$PROJECT_DIR$/cloud-aliibaba-nacos9001/cloud-aliibaba-nacos9001.iml" filepath="$PROJECT_DIR$/cloud-aliibaba-nacos9001/cloud-aliibaba-nacos9001.iml" />
       <module fileurl="file://$PROJECT_DIR$/cloud-config-client3355/cloud-config-client3355.iml" filepath="$PROJECT_DIR$/cloud-config-client3355/cloud-config-client3355.iml" />
       <module fileurl="file://$PROJECT_DIR$/cloud-config-client3366/cloud-config-client3366.iml" filepath="$PROJECT_DIR$/cloud-config-client3366/cloud-config-client3366.iml" />

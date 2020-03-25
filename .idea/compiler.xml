@@ -10,29 +10,36 @@
         <module name="cloud-consumer-order80" />
         <module name="cloud-consumer-feign-hystrix80" />
         <module name="cloud-config-client3366" />
+        <module name="colud-config-server3344" />
         <module name="cloud-eureka-server7002" />
         <module name="cloud-eureka-server7001" />
+        <module name="cloud-aliibaba-nacos9001" />
         <module name="cloud-consumerzk-order80" />
         <module name="cloud-provider-payment8004" />
         <module name="activemq-study-demo" />
         <module name="cloud-provider-payment8002" />
         <module name="cloud-provider-payment8001" />
-        <module name="cloud-provider-hystrix-payment8005" />
-        <module name="cloud-aliibaba-nacos9001" />
-        <module name="cloud-consumer-feign-order80" />
-        <module name="cloud-gateway9527" />
+        <module name="cloud-alibaba-sentinel8401" />
+        <module name="cloud-alibaba-consumer9002" />
         <module name="cloud-stream-rabbitmq-consumer8802" />
+        <module name="cloud-gateway9527" />
+        <module name="cloud-consumer-hystrix-dashboard9001" />
         <module name="cloud-provider-payment9999" />
         <module name="cloud-stream-rabbitmq-consumer8803" />
         <module name="cloud-stream-rabbbitmq-provider8801" />
-        <module name="cloud-consumer-hystrix-dashboard9001" />
-        <module name="colud-config-server3344" />
         <module name="cloud-config-client3355" />
+        <module name="cloud-alibaba-config" />
+        <module name="cloud-consumer-feign-order80" />
+        <module name="cloud-provider-hystrix-payment8005" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="activemq-study-demo" target="1.8" />
+      <module name="cloud-alibaba-config" target="1.8" />
+      <module name="cloud-alibaba-consumer9002" target="1.8" />
+      <module name="cloud-alibaba-sentinel8401" target="1.8" />
       <module name="cloud-aliibaba-nacos9001" target="1.8" />
+      <module name="cloud-aliibaba-nacos9002" target="1.8" />
       <module name="cloud-config-client3355" target="1.8" />
       <module name="cloud-config-client3366" target="1.8" />
       <module name="cloud-consumer-feign-hystrix80" target="1.8" />

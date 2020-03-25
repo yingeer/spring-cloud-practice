@@ -1,5 +1,4 @@
-package org.example.cloud;
-
+package org.example.alibabacloud;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -7,8 +6,9 @@ import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 
 @SpringBootApplication
 @EnableDiscoveryClient
-public class CloudAlibabaNacos9001 {
+public class AlibabaConsumer9002Application {
+
     public static void main(String[] args) {
-        SpringApplication.run(CloudAlibabaNacos9001.class);
+        SpringApplication.run(AlibabaConsumer9002Application.class);
     }
 }

@@ -1,0 +1,18 @@
+server:
+  port: 9001
+spring:
+  application:
+    name: alibaba-nacos-config9001
+  cloud:
+    nacos:
+      config:
+        server-addr: localhost:8848
+        file-extension: yaml
+      discovery:
+        server-addr: localhost:8848
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+# alibaba-nacos-config9001-dev.yaml
